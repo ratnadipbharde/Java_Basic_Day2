@@ -7,6 +7,6 @@ public class Main {
 
        IfElse obj1=new IfElse();
        obj1.digitToWord();
-
+       obj1.displayUnit();
     }
 }

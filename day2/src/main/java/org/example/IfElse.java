@@ -1,13 +1,13 @@
 package org.example;
 
-import java.sql.SQLOutput;
+
 import java.util.Scanner;
 
 public class IfElse {
-
+    Scanner sc=new Scanner(System.in);
     public void digitToWord(){
         System.out.print("Enter Digit(0 to 9) :-");
-        Scanner sc=new Scanner(System.in);
+
         int number=sc.nextInt();
         if(number==0) {
             System.out.println("Zero");
@@ -44,4 +44,29 @@ public class IfElse {
         }
     }
 
+    public Void displayUnit(){
+
+        System.out.print("Enter Digit for display Unit(1,10,100,1000):-");
+        int digit = sc.nextInt();
+            if (digit == 1)
+            {
+                System.out.println("Unit");
+            }
+            else if (digit == 10)
+            {
+                System.out.println("Ten");
+            }
+            else if (digit == 100)
+            {
+                System.out.println("Hundred");
+            }
+            else if (digit == 1000)
+            {
+                System.out.println("Thousand");
+            }
+            else {
+                System.out.println("Invalid input");
+            }
+        return null;
+    }
 }
