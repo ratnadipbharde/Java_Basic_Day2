@@ -19,6 +19,7 @@ public class Main {
         //obj3.toReverse();
 
         SwitchStatement obj4=new SwitchStatement();
-        obj4.checkVowel();
+        //obj4.checkVowel();
+        obj4.monthName();
     }
 }
