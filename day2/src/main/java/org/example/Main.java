@@ -9,6 +9,7 @@ public class Main {
       // obj1.digitToWord();
       // obj1.displayUnit();
        ForLoop obj2=new ForLoop();
-       obj2.naturalNumber();
+       //obj2.naturalNumber();
+        obj2.toReverse();
     }
 }
