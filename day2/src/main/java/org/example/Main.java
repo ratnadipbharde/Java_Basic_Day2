@@ -8,8 +8,13 @@ public class Main {
        IfElse obj1=new IfElse();
       // obj1.digitToWord();
       // obj1.displayUnit();
+
        ForLoop obj2=new ForLoop();
        //obj2.naturalNumber();
-        obj2.toReverse();
+        //obj2.toReverse();
+
+        WhileLoop obj3=new WhileLoop();
+        obj3.naturalNumber();
+       
     }
 }
