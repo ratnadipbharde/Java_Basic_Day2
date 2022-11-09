@@ -18,7 +18,39 @@ public class ForLoop {
         System.out.println("sum is = " + sum);
     }
 
+    public void toReverse()
+    {
+        System.out.println("Enter number to Reverse :- ");
+        int number = sc.nextInt();
+        int N = number;
+        int reverse = 0;
+        for (int i = N; N > 0; N = N / 10)
+        {
+            int reminder = N % 10;
+            reverse = reverse * 10 + reminder;
+        }
+        System.out.println("in reverse order:- "+reverse);
+    }
+    public void isPalindrome ()
+    {
+        System.out.println("Enter number to Check Palindrome Number :- ");
+        int number = sc.nextInt();
+        int N = number;
+        int reverse = 0;
+        for (int i = N; N > 0; N = N / 10)
+        {
+            int reminder = N % 10;
+            reverse = reverse * 10 + reminder;
+        }
 
+        if (number == reverse)
+        {
+            System.out.println(number+" is Palindrome Number");
+        }
+        else {
+            System.out.println(number+" is not Palindrome Number");
+        }
+    }
 
 
 }

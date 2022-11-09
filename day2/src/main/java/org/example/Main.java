@@ -12,9 +12,10 @@ public class Main {
        ForLoop obj2=new ForLoop();
        //obj2.naturalNumber();
         //obj2.toReverse();
+        obj2.isPalindrome();
 
         WhileLoop obj3=new WhileLoop();
-        obj3.naturalNumber();
-       
+        //obj3.naturalNumber();
+        //obj3.toReverse();
     }
 }

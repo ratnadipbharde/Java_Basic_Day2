@@ -34,4 +34,5 @@ public class WhileLoop {
         }
         System.out.println("in reverse order:- "+reverse);
     }
+
 }
