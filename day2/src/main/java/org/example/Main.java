@@ -15,6 +15,6 @@ public class Main {
 
         WhileLoop obj3=new WhileLoop();
         obj3.naturalNumber();
-       
     }
+
 }
