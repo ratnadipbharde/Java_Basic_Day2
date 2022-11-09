@@ -20,6 +20,9 @@ public class Main {
 
         SwitchStatement obj4=new SwitchStatement();
         //obj4.checkVowel();
-        obj4.monthName();
+        //obj4.monthName();
+
+        Operator obj5=new Operator();
+        obj5.FindMinMax();
     }
 }
